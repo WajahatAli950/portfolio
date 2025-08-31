@@ -619,7 +619,7 @@ input[type='checkbox'] {
 /*     Details     */
 /*******************/
 .split .area-1 {
-	height: 430px;
+	height: 760px;
 	background: linear-gradient(to bottom right, rgba(25, 26, 29, 0.2), rgba(25, 26, 29, 0.2)), url('../images/pic.jpg') center center no-repeat;
 	background-size: cover;
 }
@@ -999,6 +999,7 @@ a:hover.back-to-top {
 	.header {
 		padding-top: 11rem;
 		padding-bottom: 9rem;
+		background-position-y: 32%;
 	}
 	/* end of header */
 
@@ -1119,11 +1120,12 @@ a:hover.back-to-top {
 		height: 100%;
 		width: 50%;
 		display: inline-block;
+		background-position-y: 32%;
 	}
 	
 	.split .area-2 {
 		height: 100%;
-		width: 50%;
+		width: 49%;
 		display: inline-block;
 		vertical-align: top;
 	}
